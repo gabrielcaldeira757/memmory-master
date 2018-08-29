@@ -7,18 +7,18 @@ class Locacao extends Component {
             <div>
                 <div> 
                     <h2>Locação de Games Memmory</h2>
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Locação</a>
+                    <ul classNames="nav nav-tabs">
+                        <li classNames="nav-item">
+                            <a classNames="nav-link " href="#">Locação</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Games</a>
+                        <li classNames="nav-item">
+                            <a classNames="nav-link " href="#">Games</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./Genero.jsx" role="button" aria-haspopup="true" aria-expanded="false">Cadastro Genero</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Cadastro Game</a>
-                                <a class="dropdown-item" href="#">Relatorios Mensais</a>
+                        <li classNames="nav-item dropdown">
+                            <a classNames="nav-link dropdown-toggle" data-toggle="dropdown" href="./Genero.jsx" role="button" aria-haspopup="true" aria-expanded="false">Cadastro Genero</a>
+                            <div classNames="dropdown-menu">
+                                <a classNames="dropdown-item" href="#">Cadastro Game</a>
+                                <a classNames="dropdown-item" href="#">Relatorios Mensais</a>
                             </div>
                         </li>
                     </ul>
@@ -62,7 +62,7 @@ class Locacao extends Component {
                 <div>
                     <ButtonToolbar>
                         <div>
-                            <Button bsStyle="success" bsSize="large"> Salvar </Button>
+                            <myButton bsStyle="success" bsSize="large"> Salvar </myButton>
                         </div>
                         <div>
                             <Button bsStyle="warning" bsSize="large"> Excluir </Button>

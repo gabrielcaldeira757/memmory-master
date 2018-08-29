@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       //<Games />
-      //<Genero />
-      <Locacao />
+      <Genero />
+     // <Locacao />
     );
   }
 }
