@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Games from './Conteners/games'
-import Genero from './Conteners/genero';
+//import Games from './Conteners/games'
+//import Genero from './Conteners/genero';
 import Locacao from './Conteners/locacao'
 import './App.css';
 

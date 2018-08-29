@@ -69,10 +69,10 @@ class Games extends Component {
                                     <label for="inputGenero">Genero: </label>
                                 </h2>
                                 <DropdownButton
-                                   //bsStyle={Genero.toLowerCase()}
-                                  //  title={title}
-                                  //  key={i}
-                                   // id={`dropdown-basic-${i}`}
+                                    bsStyle={Genero.toLowerCase()}
+                                    title={title}
+                                    key={i}
+                                    id={`dropdown-basic-${i}`}
                                 >
                                     <MenuItem eventKey="1" active >Action</MenuItem>
                                     <MenuItem eventKey="2">Another action</MenuItem>
@@ -85,10 +85,10 @@ class Games extends Component {
                                     <label for="inputGenero">Jogadores: </label>
                                 </h2>
                                 <DropdownButton
-                                   //bsStyle={Genero.toLowerCase()}
-                                  //  title={title}
-                                  //  key={i}
-                                   // id={`dropdown-basic-${i}`}
+                                   bsStyle={Genero.toLowerCase()}
+                                   title={title}
+                                   key={i}
+                                   id={`dropdown-basic-${i}`}
                                 >
                                     <MenuItem eventKey="1" active >1 Jogandor</MenuItem>
                                     <MenuItem eventKey="2">2 Jogadores</MenuItem>

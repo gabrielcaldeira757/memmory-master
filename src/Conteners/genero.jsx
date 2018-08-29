@@ -12,7 +12,7 @@ class Genero extends Component {
                             <a class="nav-link " href="#">Locação</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Games</a>
+                            <a class="nav-link active" href="#">Games</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./Genero.jsx" role="button" aria-haspopup="true" aria-expanded="false">Cadastro Genero</a>
@@ -31,7 +31,9 @@ class Genero extends Component {
                                 <div className="form-row">
                                     <div className="form-group">
                                         <label for="inputID">ID</label>
-                                        <input type="text" className="form-control" id="inputID" placeholder="ID" />
+                                        <h2>
+                                            <label for="inputID">0000</label>
+                                        </h2>
                                     </div>
                                 </div>
                                 <div className="form-row">
